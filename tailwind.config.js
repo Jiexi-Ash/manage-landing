@@ -25,7 +25,6 @@ module.exports = {
         "8xl": "1440px",
       },
       fontFamily: {
-        // BE VIETNAM PRO
         "be-vietnam-pro": ["Be Vietnam Pro", "sans-serif"],
       },
     },

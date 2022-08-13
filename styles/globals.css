@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Overpass:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;700&family=Overpass:wght@300;600&family=Playfair+Display&display=swap");
 
 @layer base {
-  body {
+  h1 {
     @apply font-be-vietnam-pro;
   }
 }

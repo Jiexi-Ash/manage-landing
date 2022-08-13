@@ -9,7 +9,7 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
   return (
-    <header className="container max-w-8xl mx-auto pt-11 px-6">
+    <header className="container max-w-8xl px-6 lg:px-[186px]">
       <nav className="z-30 flex justify-between items-center">
         <div className="relative w-28 h-5">
           <Image src="/images/logo.svg" alt="Manage" layout="fill" />
@@ -107,3 +107,6 @@ function Navbar() {
 }
 
 export default Navbar;
+// {
+
+// }
