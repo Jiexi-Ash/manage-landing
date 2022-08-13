@@ -9,3 +9,8 @@
     @apply font-be-vietnam-pro;
   }
 }
+@layer components {
+  .link {
+    @apply text-gray-900 font-be-vietnam-pro  text-sm font-medium hover:text-darkGrayishBlue;
+  }
+}
