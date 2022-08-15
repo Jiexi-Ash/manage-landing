@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className="relative z-30 container max-w-8xl mx-auto pt-11">
       <Navbar />
-      <div className="flex flex-col justify-center items-center md:flex-row-reverse md:justify-between  my-12 md:my-16 lg:my-[120px]  px-6 lg:px-[186px] ">
+      <div className="flex flex-col justify-center items-center md:flex-row-reverse md:justify-between  my-12 md:my-16 lg:my-[120px]  px-6 xl:px-[186px] ">
         <div className="relative w-80 h-72 md:w-[440px] md:h-[455px] lg:w-[540px] lg:h-[485px]">
           <Image src="/images/illustration-intro.svg" alt="" layout="fill" />
         </div>

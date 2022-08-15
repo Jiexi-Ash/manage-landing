@@ -10,13 +10,13 @@ function Features() {
           <Image src="/images/bg-tablet-pattern.svg" alt="" layout="fill" />
         </div>
       </div>
-      <div className="relative z-30 flex flex-col justify-center items-center  px-6 md:flex-row md:justify-between md:items-start lg:px-[186px]">
+      <div className="relative z-30 flex flex-col justify-center items-center  px-6 md:flex-row md:justify-between md:items-start xl:px-[186px]">
         <div className="max-w-lg text-center px-4 md:text-left md:pt-7 md:px-0">
           <h2 className="font-extrabold text-veryDarkBlue text-3xl leading-[45px] tracking-[-0.62px] md:text-[20px] lg:text-[40px]">
             What’s different about Manage?
           </h2>
 
-          <p className="font-normal  text-veryDarkBlue/60 text-sm pt-[14px] md:max-w-sm lg:max-w-[320px]  lg:text-[16px] lg:leading-7">
+          <p className="font-normal  text-veryDarkBlue/60 text-sm pt-[14px] md:max-w-[300px] lg:max-w-[320px]  lg:text-[16px] lg:leading-7">
             Manage provides all the functionality your team needs, without the
             complexity. Our software is tailor-made for modern digital product
             teams.
