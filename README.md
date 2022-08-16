@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Link](https://www.frontendmentor.io/solutions/manage-landing-page-jCz7_xUf1O)
+- Live Site URL: [Link](https://manage-landing-woad.vercel.app/)
 
 ## My process
 
