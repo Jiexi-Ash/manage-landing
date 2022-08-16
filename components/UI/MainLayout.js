@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
-import Navbar from "components/Navbar";
 import Footer from "components/Footer/Footer";
 
 function MainLayout({ children }) {
@@ -10,6 +9,7 @@ function MainLayout({ children }) {
       <Head>
         <title>Manage</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" href="/images/favicon-32x32.png" />
       </Head>
 
       <main className="relative max-w-8xl container mx-auto overflow-hidden">
