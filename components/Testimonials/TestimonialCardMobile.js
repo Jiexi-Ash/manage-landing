@@ -12,7 +12,7 @@ function TestimonialCardMobile({
     <div
       className={`${
         activeIndex === itemIndex ? "block" : "hidden"
-      } relative bg-[#FAFAFA] text-center pb-10 w-[340px] h-[240px] my-10 md:block`}
+      } relative bg-[#FAFAFA] text-center pb-10 w-[340px] h-[240px] my-10 md:block lg:w-[540px]`}
     >
       <div className="absolute  left-2/4 translate-x-[-50%] translate-y-[-50%]">
         <Image src={imgSrc} alt={name} width={72} height={72} />

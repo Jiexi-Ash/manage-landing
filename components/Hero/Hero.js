@@ -9,8 +9,12 @@ function Hero() {
         <div className="relative w-80 h-72 md:w-[440px] md:h-[455px] lg:w-[540px] lg:h-[485px]">
           <Image src="/images/illustration-intro.svg" alt="" layout="fill" />
         </div>
-
-        <div className="max-w-sm text-center md:text-left lg:max-w-md">
+        <div className="absolute bottom-[-80px] right-[-190px] md:hidden">
+          <div className="relative h-[350px] w-[350px]">
+            <Image src="/images/bg-tablet-pattern.svg" alt="" layout="fill" />
+          </div>
+        </div>
+        <div className="relative z-50 max-w-sm text-center md:text-left lg:max-w-md">
           <h1 className="text-[40px] font-bold text-primaryBlue tracking-[-1px] leading-[50px]  md:text-5xl lg:leading-[64px]">
             Bring everyone together to build better products.
           </h1>
