@@ -17,7 +17,7 @@ function TestimonialCardMobile({
       <div className="absolute  left-2/4 translate-x-[-50%] translate-y-[-50%]">
         <Image src={imgSrc} alt={name} width={72} height={72} />
       </div>
-      <h4 className="font-bold text-[16px] pt-[60px] pb-5">{name}</h4>
+      <p className="font-bold text-[16px] pt-[60px] pb-5">{name}</p>
       <p className="px-5">{quote}</p>
     </div>
   );

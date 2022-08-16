@@ -8,7 +8,10 @@ function Testimonials() {
       <h1 className="text-center text-[32px] font-extrabold font-be-vietnam-pro text-veryDarkBlue">
         What they’ve said
       </h1>
-      <div className="relative z-30 flex flex-col justify-center items-center  px-6 md:flex-row md:justify-between md:items-start md:overflow-x-scroll md:scrollbar-none md:px-0" tabIndex={0}>
+      <div
+        className="relative z-30 flex flex-col justify-center items-center  px-6 md:flex-row md:justify-between md:items-start md:overflow-x-scroll md:scrollbar-none md:px-0"
+        tabIndex={0}
+      >
         <div className="flex mt-16  md:flex-row md:justify-between md:items-center md:space-x-6">
           <TestimonialCardMobile
             activeIndex={active}
