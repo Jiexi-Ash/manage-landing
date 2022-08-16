@@ -6,7 +6,7 @@ import FooterSocials from "./FooterSocials";
 
 function FooterIcons() {
   return (
-    <div className="flex flex-col pt-10 px-4 items-center md:items-start md:pt-0 md:justify-between">
+    <div className="flex flex-col pt-10 px-4 items-center md:items-start md:pt-0 md:justify-between md:flex-col-reverse">
       <FooterSocials />
       <FooterLogo />
     </div>
